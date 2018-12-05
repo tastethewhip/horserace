@@ -1,15 +1,13 @@
 /* base styles */
-
 body {
     font-family: verdana, sans-serif;
     font-size: 12px;
 }
-
 .races_title {
     text-align: center;
 }
-/******** LEFT SIDE ********/
 
+/******** LEFT SIDE ********/
 /* current races table */
 .races_left {
     float: left;  
@@ -17,7 +15,8 @@ body {
 .races_container {
     border: 1px solid black;
     margin: 2px;
-    width: 595px;
+    width: 630px;
+    border-bottom: none;
 }
 .race_name {
     border-bottom: 1px solid black;
@@ -35,7 +34,7 @@ body {
 .race_horse span {
     display: inline-block;
     border-right: 1px solid black;
-    width: 80px;
+    width: 85px;
     text-align: center;
     padding: 1px 0px;
 }
@@ -47,16 +46,18 @@ body {
 .race_finished {
     background: palegreen;
 }
+
 /******** RIGHT SIDE *********/
 /** best run **/
 .races_right {
     float: right;
-    width: 700px;
+    width: 600px;
 }
 .races_bestrun {
     margin: 0 auto;
-    width: 425px;
+    width: 452px;
     border: 1px solid black;
+    border-bottom: none;
 }
 .races_bestrun .race_labels {
     background: lightsteelblue;
@@ -64,7 +65,8 @@ body {
 }
 /** last races **/
 .races_last {
-    width: 258px;
+    width: 270px;
     border: 1px solid black;
     margin: 2px auto;
+    border-bottom: none;
 }
